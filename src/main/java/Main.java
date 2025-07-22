@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Hello, This is my first HTTP Server in Java");
     }
     try{
-        ServerSocket serverSocket = new ServerSocket(60001);
+        ServerSocket serverSocket = new ServerSocket(4221);
 
         serverSocket.setReuseAddress(true);
     }catch(IOException e){
